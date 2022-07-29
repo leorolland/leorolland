@@ -24,18 +24,7 @@ jobs:
           # Options
           user: leorolland
           template: classic
-          base: header, activity, repositories, metadata
+          base: header, activity, community, repositories
+          config_octicon: yes
           config_timezone: Europe/Paris
-          plugin_activity: yes
-          plugin_activity_days: 14
-          plugin_activity_filter: all
-          plugin_activity_limit: 5
-          plugin_activity_load: 300
-          plugin_activity_visibility: all
-          plugin_lines: yes
-          plugin_notable: yes
-          plugin_notable_from: organization
-          plugin_notable_types: commit
-          plugin_repositories: 100
-          plugin_repositories_affiliations: owner
-          plugin_repositories_batch: 100
+          config_twemoji: yes
